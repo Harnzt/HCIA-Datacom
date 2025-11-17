@@ -1,0 +1,10 @@
+display device --- untuk cek informasi perangkat
+display device esn --- untuk cek serial number perangkat
+display device power --- untuk cek daya device
+display device temperature --- untuk cek suhu device
+
+display version --- untuk mengecek versi perangkat
+display path ?
+
+display interface brief --- untuk mengecek status interface yang ada di perangkat
+display current-configuration - untuk mengecek informasi terbaru perangkat secara keseluruhan

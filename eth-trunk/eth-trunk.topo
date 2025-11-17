@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="21910D7A-3E09-4378-A5DE-0DA2CB8F614E" name="LSW1" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-07-5C-FE" com_port="2000" bootmode="0" cx="135.000000" cy="188.000000" edit_left="162" edit_top="242">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="BF6E8773-F3DB-4995-980E-4B76A1C391D2" name="LSW2" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-89-2B-D2" com_port="2001" bootmode="0" cx="350.000000" cy="188.000000" edit_left="377" edit_top="242">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="9389DA52-67DD-4bfe-B04F-0A5C35057F46" name="LSW4" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-2D-7C-DD" com_port="2003" bootmode="0" cx="705.000000" cy="193.000000" edit_left="732" edit_top="247">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="1121D2DD-876D-4de3-8627-D25D775189D7" name="LSW3" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-FB-7F-9B" com_port="2002" bootmode="0" cx="503.000000" cy="192.000000" edit_left="530" edit_top="246">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="21910D7A-3E09-4378-A5DE-0DA2CB8F614E" destDeviceID="BF6E8773-F3DB-4995-980E-4B76A1C391D2">
+            <interfacePair lineName="Copper" srcIndex="22" srcBoundRectIsMoved="1" srcBoundRect_X="205.183762" srcBoundRect_Y="215.000000" srcOffset_X="-10.000000" srcOffset_Y="-18.000000" tarIndex="22" tarBoundRectIsMoved="1" tarBoundRect_X="333.816223" tarBoundRect_Y="215.000000" tarOffset_X="-26.000000" tarOffset_Y="-18.000000" />
+            <interfacePair lineName="Copper" srcIndex="23" srcBoundRectIsMoved="1" srcBoundRect_X="217.183762" srcBoundRect_Y="227.000000" srcOffset_X="-16.000000" srcOffset_Y="3.000000" tarIndex="23" tarBoundRectIsMoved="1" tarBoundRect_X="345.816223" tarBoundRect_Y="227.000000" tarOffset_X="-25.000000" tarOffset_Y="5.000000" />
+        </line>
+        <line srcDeviceID="1121D2DD-876D-4de3-8627-D25D775189D7" destDeviceID="9389DA52-67DD-4bfe-B04F-0A5C35057F46">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="573.183228" srcBoundRect_Y="219.213776" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="688.816772" tarBoundRect_Y="219.786224" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="581.183228" srcBoundRect_Y="211.213776" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="0" tarBoundRect_X="696.816772" tarBoundRect_Y="211.786224" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="0" srcBoundRect_X="565.183228" srcBoundRect_Y="227.213776" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="2" tarBoundRectIsMoved="0" tarBoundRect_X="680.816772" tarBoundRect_Y="227.786224" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips>
+        <txttip left="136" top="94" right="200" bottom="111" content="contoh 1" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="507" top="161" right="571" bottom="178" content="contoh 2" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>
